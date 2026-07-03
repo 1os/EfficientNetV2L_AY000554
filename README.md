@@ -9,7 +9,14 @@
 
 ## Скачать модель
 
-Файл весов (~127 МБ) выложен в [Releases](https://github.com/1os/EfficientNetV2L_AY000554/releases):
+### Из репозитория (Git LFS)
+
+```bash
+git lfs install
+git clone https://github.com/1os/EfficientNetV2L_AY000554.git
+```
+
+### Из Releases (прямая ссылка)
 
 **[EfficientNetV2L.onnx](https://github.com/1os/EfficientNetV2L_AY000554/releases/download/v1.0.0/EfficientNetV2L.onnx)** — v1.0.0
 
@@ -52,11 +59,15 @@ curl -L -o EfficientNetV2L.onnx \
 
 ```
 .
+├── EfficientNetV2L.onnx   # веса модели (Git LFS)
+├── .gitattributes
 ├── README.md
 └── LICENSE
 ```
 
-> Файл `EfficientNetV2L.onnx` (~127 МБ) не хранится в git — скачивайте из [Releases](https://github.com/1os/EfficientNetV2L_AY000554/releases/latest).
+> Файл `EfficientNetV2L.onnx` (~127 МБ) хранится в репозитории через **Git LFS**.  
+> Для клонирования: `git lfs install && git clone ...`  
+> Альтернативно — скачать напрямую из [Releases](https://github.com/1os/EfficientNetV2L_AY000554/releases/latest).
 
 ---
 
