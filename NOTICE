@@ -1,0 +1,38 @@
+EfficientNetV2L_AY000554
+Copyright (C) 2026 1os
+
+This repository contains an ONNX export of the EfficientNetV2L OCR model
+for Russian license plates, based on the AY000554 training pipeline.
+
+================================================================================
+Third-Party Components and Attributions
+================================================================================
+
+1. AY000554/ocr_car_plate
+   License: GNU General Public License v3.0 (GPL-3.0)
+   URL: https://github.com/AY000554/ocr_car_plate
+
+   The model weights in this repository are derivative of the training code
+   and methodology published in the ocr_car_plate project. Distribution is
+   governed by GPL-3.0. See LICENSE for the full license text.
+
+2. Nomeroff Net / AUTO.RIA Numberplate Options Dataset
+   License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+   URL: https://nomeroff.net.ua/
+   Copyright 2018-2024 by ARS Online OU
+
+   The model was trained on data derived from the nomeroff.net dataset.
+   When publishing results or redistributing derivative works, please
+   attribute the data source:
+
+   "Training data based on AUTO.RIA Numberplate Options Dataset (nomeroff.net),
+    licensed under CC BY 4.0."
+
+3. AY000554/Car_plate_detecting (related ANPR pipeline component)
+   License: Apache License 2.0
+   URL: https://github.com/AY000554/Car_plate_detecting
+
+   The YOLOv9c plate detector is a separate component of the full ANPR
+   pipeline and is not included in this repository.
+
+================================================================================
