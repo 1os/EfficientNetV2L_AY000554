@@ -7,6 +7,19 @@
 
 ---
 
+## Скачать модель
+
+Файл весов (~127 МБ) выложен в [Releases](https://github.com/1os/EfficientNetV2L_AY000554/releases):
+
+**[EfficientNetV2L.onnx](https://github.com/1os/EfficientNetV2L_AY000554/releases/download/v1.0.0/EfficientNetV2L.onnx)** — v1.0.0
+
+```bash
+curl -L -o EfficientNetV2L.onnx \
+  https://github.com/1os/EfficientNetV2L_AY000554/releases/download/v1.0.0/EfficientNetV2L.onnx
+```
+
+---
+
 ## Кратко
 
 | Параметр | Значение |
@@ -39,9 +52,11 @@
 
 ```
 .
-├── EfficientNetV2L.onnx   # веса модели
-└── README.md
+├── README.md
+└── LICENSE
 ```
+
+> Файл `EfficientNetV2L.onnx` (~127 МБ) не хранится в git — скачивайте из [Releases](https://github.com/1os/EfficientNetV2L_AY000554/releases/latest).
 
 ---
 
@@ -80,6 +95,8 @@ A B E K M H O P C T Y X
 ```bash
 pip install onnxruntime numpy opencv-python
 ```
+
+Скачайте модель из [Releases](https://github.com/1os/EfficientNetV2L_AY000554/releases/latest) и положите `EfficientNetV2L.onnx` в рабочую папку.
 
 ### Пример инференса (Python)
 
